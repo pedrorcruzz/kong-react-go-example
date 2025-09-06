@@ -36,7 +36,7 @@ Para acessar elas como é localhost então vai ser: `http://localhost:porta`
 - **Nota**: No Konga, na hora de criar a conta e ele perguntar qual a porta use 8001.
 - **Nota**: No Konga, use `host.docker.internal` para se comunicar com localhost da máquina.
 
-### 3. Microserviços Go
+### 4. Microserviços Go
 
 #### Hello Service
 
@@ -52,7 +52,7 @@ cd kong-payment-service
 go run main.go
 ```
 
-### 4. Cliente React
+### 5. Cliente React
 
 ```bash
 cd kong-react
