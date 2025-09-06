@@ -24,7 +24,17 @@ cd kong-api-gateaway
 docker compose up -d
 ```
 
-**Nota**: No Konga, use `host.docker.internal` para se comunicar com localhost da máquina.
+### 3. Acessar o Konga
+
+Existe 3 portas configuradas no arquivo do `docker-compose.yaml`
+
+Para acessar elas como é localhost então vai ser: `http://localhost:porta`
+
+- Porta do endereço que vai ser passada para o cliente: 8000
+- Porta do Admin do Kong: 8001
+- Porta do Konga (Dashboard): 1337
+- **Nota**: No Konga, na hora de criar a conta e ele perguntar qual a porta use 8001.
+- **Nota**: No Konga, use `host.docker.internal` para se comunicar com localhost da máquina.
 
 ### 3. Microserviços Go
 
